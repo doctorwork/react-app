@@ -1,0 +1,37 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: table;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block {
+    margin: 0 auto;
+}
+  
+.text {
+    composes: block;
+    height:42px; 
+    font-size:30px;
+    font-family:PingFangSC-Regular;
+    color: gray-color;
+    line-height:42px;
+    padding: 0 40px;
+}
+
+.img {
+    width: 200px
+}
+
+.img_container {
+    composes: block;
+    width: 288px;
+    height: 242px
+    text-align: center
+    padding-top: 44px
+}
